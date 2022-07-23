@@ -1,6 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{ 
    margin-left : 10px;
    margin-right: 10px;
+   font-family: 'Lato', sans-serif;
  }
 
 h1{
