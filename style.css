@@ -19,11 +19,11 @@ h1{
   align-self: center;
 }
 .home__title{
-  font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
+  font-size: ;
+  margin-bottom: ;
 }
 .home__title-color{
-  color: var(--first-color);
+  color: #40826D ;
 }
 .home__social{
   display: flex;
@@ -31,12 +31,12 @@ h1{
 }
 .home__social-icon{
   width: max-content;
-  margin-bottom: var(--mb-2);
+  margin-bottom: ;
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: #40826D;
 }
 .home__social-icon:hover{
-  color: var(--first-color);
+  color: #40826D;
 }
 .home__img{
   position: absolute;
