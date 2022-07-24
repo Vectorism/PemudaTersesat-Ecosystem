@@ -33,7 +33,7 @@
    font-size : 35px;
    letter-spacing : 2px;
    cursor : pointer;
-   border: 2px solid;
+   border-bottom: 3px solid;
    background-color: #04395E;
   }
 
