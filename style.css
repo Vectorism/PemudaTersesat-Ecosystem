@@ -63,12 +63,19 @@ nv ul li a::hover{
    transition:: transform .3s;
  }
 
-.content{
-   color: white;
-      
- }
-   
 
+.content{
+   position: absolute;
+   top: 50%;
+   left: 8%;
+   transform: translateY(-50%);
+ }
+  
+.h1{
+   color: white;
+   margin: 20px 0px 20px;
+   font-size: 55px;
+ }
 
    
 
