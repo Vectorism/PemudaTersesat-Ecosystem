@@ -1,114 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{ 
-   margin-left : 10px;
-   margin-right: 10px;
+   padding : 0;
+   margin : 0;
    font-family: 'Lato', sans-serif;
+   border-sizing : border-box;
  }
 
-h1{
-   color : #40826D ;
+.hero{
+   height : 100vh;
+   width : 100%; 
+   background-image : url(../img/pemudatersesat.png);
 
-.img {
-   width : 20px;
-   height: 20px;
-  }
-html{
-   scroll-behavior: smooth; 
-}
-h1 ,h2, p{
-   margin : 0:
-}
-/*===== NAV =====*/
-.nav{
-  height: 3rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 600;
-}
-@media screen and (max-width: 768px){
-  .nav__menu{
-    position: fixed;
-    top: 3rem;
-    left: -100%;
-    width: 80%;
-    height: 100%;
-    padding: 2rem;
-    background-color: #0E2431;
-    transition: .5s;
-  }
-}
-.nav__item{
-  margin-bottom: 1rem;
-}
-.nav__link{
-  position: relative;
-  color: #fff;
-}
-.nav__link:hover{
-  position: relative;
-}
-.nav__link:hover::after{
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 0.18rem;
-  left: 0;
-  top: 2rem;
-  background-color: black;
-}
-.nav__logo{
-  color: #40826D;
-}
-.nav__toggle{
-  color: ;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
 
-/*Active menu*/
-.active::after{
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 0.18rem;
-  left: 0;
-  top: 2rem;
-  background-color: gray;
-}
-  
-/*===== HOME =====*/
-.home{
-  height: calc(100vh - 3rem);
-  row-gap: 1rem;
-}
-.home__data{
-  align-self: center;
-}
-.home__title{
-  font-size: ;
-  margin-bottom: 1rem;
-}
-.home__title-color{
-  color: #40826D ;
-}
-.home__social{
-  display: flex;
-  flex-direction: row;
-}
-.home__social-icon{
-  width: max-content;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  color: #40826D;
-}
-.home__social-icon:hover{
-  color: #40826D;
-}
-.home__img{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 295px;
-}
+
+
+
+
