@@ -36,6 +36,8 @@
 span{
    color : #FF0000;
    background-color: black;
+   text-decoration: line-through;
+   
   }
 
 nav ul li{
