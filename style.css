@@ -50,7 +50,20 @@ nav ul li a {
 
 nv ul li a::hover{
    color: #008080;
-   }
+ }
+
+.btn{
+   background-color: #008080;
+   color: white;
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 10px 25px;
+   border-radius: 35px;
+   transition:: transform .3s;
+ }
+
+
 
    
 
