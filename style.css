@@ -27,17 +27,20 @@
    padding-right: 8%;
   }
 
-.logo span{ 
-   padding-bottom 5px;
+.logo{ 
+   padding-bottom: 5px;
    color : white ;
    font-size : 35px;
-   letter-spacing : 1px;
+   letter-spacing : 2px;
    cursor : pointer;
    border: 2px solid;
    background-color: #04395E;
   }
 
 span{
+   padding-bottom : 5px;
+   font-size 35px;
+   
    text-decoration: line-through #CC2936;
  }
    
