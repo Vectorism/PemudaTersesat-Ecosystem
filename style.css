@@ -6,7 +6,7 @@
    font-family: 'Lato', sans-serif;
    border-sizing : border-box;
    background-size : cover;
-   background-color: #08415C;
+   background-color: #388697;
    background-position: center;
   }
 
@@ -67,7 +67,7 @@ nv ul li a::hover{
  }
 
 .btn{
-   background-color: #388697;
+   background-color: #08415C;
    color: white;
    text-decoration: none;
    border: 2px solid transparent;
