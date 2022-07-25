@@ -33,14 +33,14 @@
    font-size : 35px;
    letter-spacing : 2px;
    cursor : pointer;
-   border-bottom: 3px solid;
+   border-bottom: 3px solid black;
    background-color: #04395E;
   }
 
 span{
    padding-bottom : 5px;
    font-size 35px;
-   
+   background-color: #04395E;
    text-decoration: line-through #CC2936;
  }
    
