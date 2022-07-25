@@ -184,15 +184,15 @@ button:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 400px;
+	min-height: 600px;
 }
 .card{
-	height: 365px;
-	width: 335px;
+	height: 565px;
+	width: 555px;
 	padding: 20px 35px;
 	background: #6F9CEB;
 	border-radius: 20px;
-	margin: 15px;
+	margin: 20px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
