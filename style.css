@@ -33,14 +33,14 @@
    font-size : 35px;
    letter-spacing : 2px;
    cursor : pointer;
-   border-bottom: 3px solid black;
+   border-bottom: 2px solid ;
    background-color: #04395E;
   }
 
 .logo_tersesat {
    padding-bottom : 5px;
    font-size 35px;
-   background-color: #04395E;
+   color: white;
    text-decoration: line-through #CC2936;
  }
    
