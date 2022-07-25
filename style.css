@@ -67,6 +67,7 @@ nv ul li a::hover{
  }
 
 .btn{
+   padding-right: 25px;
    background-color: #08415C;
    color: white;
    text-decoration: none;
