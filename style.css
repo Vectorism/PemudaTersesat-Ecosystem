@@ -483,6 +483,15 @@ section .title::after{
 .contact .contact-content .left .icons{
     margin: 10px 0;
 }
+.location{
+  position: relative;
+  padding-left: 20px;
+  margin: 10px 0;
+  color: #D73A31;
+}
+.location-text{
+  color: white;
+}
 .contact .contact-content .row{
     display: flex;
     height: 65px;
@@ -526,6 +535,7 @@ section .title::after{
     outline: none;
     padding: 0 15px;
     font-size: 17px;
+    color: white;
     font-family: 'arial', sans-serif;
     transition: all 0.3s ease;
 }
