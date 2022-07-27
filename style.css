@@ -546,6 +546,7 @@ section .title::after{
 .contact .right form .textarea textarea{
   padding-top: 10px;
   resize: none;
+  color: white;
 }
 .contact .right form .button-area{
   display: flex;
