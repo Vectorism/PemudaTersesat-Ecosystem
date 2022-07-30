@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.section .about, .services, .partner,.teams, .contact, footer{
+.section .about, .services, .partner,.team, .contact, footer{
     color: #D0D3C5;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -273,19 +273,19 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+.services, .team{
     color:#D0D3C5;
     background: #032B2F;
     border-radius: 30px;
     border-bottom-left-radius: 30px;
 }
 .services .title::before,
-.teams .title::before, .partner .title::before, .about .title::before, .contact .title::before {
+.team .title::before, .partner .title::before, .about .title::before, .contact .title::before {
     background: #D0D3C5;
 }
 .services .title::after,
-.teams .title::after{
-    background-color: #032B2F;
+.team .title::after{
+    background-color: white;
     content: "";
 }
 
@@ -386,22 +386,9 @@ section .title::after{
     top: 0;
     background: #D73A31;
 }
-.partner-content .right .partner1::before{
-    width: 50%;
+.partner-content img{
+  width: 200px;
 }
-.partner-content .right .partner2::before{
-    width: 50%;
-}
-.partner-content .right .partner3::before{
-    width: 50%;
-}
-.partner-content .right .partner4::before{
-    width: 50%;
-}
-.partner-content .right .partner5::before{
-    width: 50%;
-}
-
 /*team scroll horizontal*/
 
 .slide-container{
