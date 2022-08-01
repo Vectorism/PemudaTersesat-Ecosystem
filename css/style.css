@@ -1,4 +1,4 @@
-/*  import google fonts */
+  /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     margin: 0;
@@ -35,8 +35,8 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.section .about, .services, .partner,.team, .contact, footer{
-    color: #D0D3C5;
+.section .about, .services, .partner,.teams, .contact, footer{
+    
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     font-family: 'Lato', sans-serif;
@@ -170,11 +170,6 @@ section .title::after{
 }
 
 
-
-
-
-
-
 /* home section styling */
 .home{
     display: flex;
@@ -209,7 +204,7 @@ section .title::after{
 }
 .text-3{
     color: #D73A31;
-    font-weight: 500;
+    font-weight: 500px;
 }
 .home .home-content a{
     display: inline-block;
@@ -273,38 +268,57 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .team{
-    color:#D0D3C5;
+.services h2 {
+    color: white;
+}
+.services{
     background: #032B2F;
     border-radius: 30px;
     border-bottom-left-radius: 30px;
 }
+.teams{
+    font-size: 30px;
+    color: white;
+    border-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.services .text{
+    font-size: 30px;
+    color: white;
+    padding: 2px;
+    background-color: #032B2F;
+}
 .services .title::before,
-.team .title::before, .partner .title::before, .about .title::before, .contact .title::before {
+.teams .title::before, .partner .title::before, .about .title::before, .contact .title::before
+{
     background: #D0D3C5;
 }
 .services .title::after,
-.team .title::after{
-    background-color: white;
+.teams .title::after{
+    background-color: #032B2F;
     content: "";
 }
-
+.services.serv-content .card p{
+  color: black;
+}
 .services .serv-content .card{
-    width: calc(33% - 20px);
+    width: calc(50%- 20px);
     background: #D0D3C5;
     text-align: center;
     margin: 6px;
     border-radius: 11px;
-    padding: 0px 0px;
+    padding: 25px 0 25px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .services .serv-content .card a{
   color: #032B2F;
   position: center;
+  
 }
 .services .serv-content .card:hover{
     background: #56B1BF;
+    padding: 30px;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -314,12 +328,12 @@ section .title::after{
     transform: scale(1.05);
 }
 .services .serv-content .card i{
-    font-size: 50px;
+    font-size: 20px;
     color: #D73A31;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #D0D3C5;
+    color: black;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -332,8 +346,19 @@ section .title::after{
 .partner .title::after{
   color: #D0DC35;
 }
+    .partner .partner-content {
+      border-radius: 3px solid;
+    }
+    .partner img{
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      border: 4px solid white;
+      align-items: center;
+    }
 .partner .partner-content .column{
     width: calc(50% - 30px);
+    position: center;
 }
 .partner .partner-content .left .text{
     font-size: 20px;
@@ -344,15 +369,15 @@ section .title::after{
     text-align: justify;
 }
 .partner .partner-content .left a{
-    display: inline-block;
+    position: center;
     background: #D73A31;
-    color: #D0D3C5;
+    color: black;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #D73A31;
+    border: 3px solid #D73A31;
     transition: all 0.3s ease;
 }
 .partner .partner-content .left a:hover{
@@ -386,9 +411,22 @@ section .title::after{
     top: 0;
     background: #D73A31;
 }
-.partner-content img{
-  width: 200px;
+.partner-content .right .partner1::before{
+    width: 50%;
 }
+.partner-content .right .partner2::before{
+    width: 50%;
+}
+.partner-content .right .partner3::before{
+    width: 50%;
+}
+.partner-content .right .partner4::before{
+    width: 50%;
+}
+.partner-content .right .partner5::before{
+    width: 50%;
+}
+
 /*team scroll horizontal*/
 
 .slide-container{
@@ -403,7 +441,7 @@ section .title::after{
 }
 .card{
   border-radius: 25px;
-  background-color: #FFF;
+  background-color: #08708A;
 }
 .image-content,
 .card-content{
@@ -426,26 +464,26 @@ section .title::after{
   background-color: #032B2F;
   border-radius: 2500px 200px 2500px 2500px;
 }
-.overlay::before,
-.overlay::after{
+.overlay::after,overlay::before{
   content: '';
   position: absolute;
   right: 0;
   bottom: -40px;
   height: 40px;
   width: 40px;
-  background-color: #56B1BF;
+  border: 2px solid #D0D3C5;
+  background-color: #D73A31;
 }
 .overlay::after{
   border-radius: 25% 25px 25% 25%;
-  background-color: #56B1BF;
+  background-color: #D73A31;
 }
 .card-image{
   position: relative;
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background: #D73A31;
+  background: #B79F9E;
   padding: 3px;
 }
 .card-image .card-img{
@@ -456,13 +494,14 @@ section .title::after{
   border: 4px solid #032B2F;
 }
 .name{
+  font-style: bold;
   font-size: 18px;
   font-weight: 500;
-  color: #D0D3C5;
+  color: #090909;
 }
 .description{
   font-size: 14px;
-  color: #707070;
+  color: white;
   text-align: center;
 }
 .button{
@@ -771,6 +810,19 @@ footer span a:hover{
     .about .about-content .right .text,
     .partner .partner-content .left .text{
         font-size: 19px;
+    }
+    .partner .partner-content .container{
+      height: 2000px;
+    }
+    .partner .partner-content {
+      border-radius: 3px solid;
+    }
+    .partner img{
+      width: 100%;
+      height: 300px;
+      border-radius: 20px;
+      border: 1px solid white;
+      align-items: center;
     }
     .contact .right form .fields{
         flex-direction: column;
