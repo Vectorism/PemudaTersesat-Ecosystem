@@ -6,6 +6,7 @@ body {
   color:black;
 }
 
+
 .dark .navbar{
   background-color: #032B2F;
 }
@@ -29,14 +30,17 @@ h1 {
 }
 
 .dark .services .title,
-.teams .title, .partner .title, .about .title, .contact .title{
+.team .title, .partner .title, .about .title, .contact .title{
     background: #56B1BF;
     border-radius: 20px;
 }
 .dark .services .content,
-.teams .content, .partner .content, .about .content, .contact .content{
+.team .content, .partner .content, .about .content{
     background: #56B1BF;
     border-radius: 20px;
+}
+.dark .contact{
+  color: white
 }
 
 h2 {
@@ -52,7 +56,7 @@ p {
 }
 
 a {
-  color:rgb(162, 0, 255);
+  color:rgba(26, 26, 26, 1);
   font-size: 20px;
   text-decoration: none;
   font-weight: 100;
@@ -64,7 +68,7 @@ a {
 
 .switch {
   width: 80px;
-  height: 40px;
+  height: 35px;
   border: 2px solid white;
   border-radius: 20px;
   background-color: #D73A31;
@@ -77,8 +81,8 @@ a {
   border-radius: 15px;
   background-color: rgb(255, 255, 255);
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 0px;
+  left: 2px;
   transition: 0.3s;
   box-shadow: 
     inset 4px 4px 4px rgb(255,255,255),
@@ -105,7 +109,7 @@ a {
 }
 
 .dark > * {
- color:rgb(57, 57, 57);
+ color:black;
 }
 
 .main {
@@ -248,7 +252,7 @@ a {
   background-color: #55B1BF;
 }
 
-.dark .location-tex{
+.dark .location-text{
   color: white;
 }
 
